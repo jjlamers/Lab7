@@ -25,6 +25,7 @@
         android:layout_below="@id/message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="sendOnChannel1"
         android:text="Send On Channel 1" />
 
     <Button
@@ -32,6 +33,7 @@
         android:layout_below="@id/sendOnChannel1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="sendOnChannel2"
         android:text="Send On Channel 2" />
 
 </RelativeLayout>
